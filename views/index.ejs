@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computers R Us</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- app css -->
+    <link rel="stylesheet" href="../public/css/grid.css">
+    <link rel="stylesheet" href="../public/css/app.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- mobile menu -->
+        <div class="mobile-menu bg-second">
+            <a href="/" class="mb-logo">Computers R Us</a>
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+                <i class='bx bx-menu'></i>
+            </span>
+        </div>
+        <!-- end mobile menu -->
+        <!-- main header -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>
+            </span>
+            <!-- top header -->
+            <div class="bg-second">
+                <div class="top-header container">
+                    <ul class="devided">
+                        <li>
+                            <a href="tel:+16164300720">Call us at +16164300720</a>
+                        </li>
+                        <li>
+                            <a href="mailto:computersrus2002@gmail.com">Email us at computersrus2002@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="devided">
+                        <li class="dropdown">
+                            <a href="">USD</a>
+                            <i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#">EUR</a></li>
+                                <li><a href="#">MXN</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">ENGLISH</a>
+                            <i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#">FRENCH</a></li>
+                                <li><a href="#">SPANISH</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end top header -->
+            <!-- mid header -->
+            <div class="bg-main">
+                <div class="mid-header container">
+                    <a href="/" class="logo">Computers R Us</a>
+                    <ul class="user-menu">
+                        <li class="cart"><a href="/cart"><i class='bx bx-cart'></i>Cart<span> 0</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end mid header -->
+            <!-- bottom header -->
+            <div class="bg-second">
+                <div class="bottom-header container">
+                    <ul class="main-menu">
+                        <li><a href="/">Home</a></li>
+                        <!-- mega menu -->
+                        <li class="mega-dropdown">
+                            <a href="/products">Shop<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Categories</h3>
+                                            <ul>
+                                                <li><a href="/products">AMD</a></li>
+                                                <li><a href="/products">Intel</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row img-row">
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="../public/media/images/new/AMD_prebuilt_cpu.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="../public/media/images/new/AMD_prebuilt_gpu.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="../public/media/images/new/Intel_CPU.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <li><a href="/contact_us">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end bottom header -->
+        </div>
+        <!-- end main header -->
+    </header>
+    <!-- end header -->
+
+    <!-- hero section -->
+    <div class="hero">
+        <div class="slider">
+            <div class="container">
+                <!-- slide item -->
+                <div class="slide active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Computers R Us
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Next-gen design and performance
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                With our AMD builds, you will never experience any lag and will love the design and performance you get from them.
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover" onclick="window.location.href='/product-detail';">
+                                    <span>shop now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img top-down">
+                        <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="Picture of gaming pc">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Computers R Us
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Next gen design and performance
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                With our Intel builds, you will never experience any lag and will love the design and performance you get from them.
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover" onclick="window.location.href='/product-detail';">
+                                    <span>shop now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img right-left">
+                        <img src="../public/media/images/new/Intel_prebuilt.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                
+            </div>
+            <!-- slider controller -->
+            <button class="slide-controll slide-next">
+                <i class='bx bxs-chevron-right'></i>
+            </button>
+            <button class="slide-controll slide-prev">
+                <i class='bx bxs-chevron-left'></i>
+            </button>
+            <!-- end slider controller -->
+        </div>
+    </div>
+    <!-- end hero section -->
+
+    <!-- promotion section -->
+    <div class="promotion">
+        <div class="row">
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>AMD Computers</h3>
+                        <button class="btn-flat btn-hover" onclick="window.location.href='/products';"><span>shop collection</span></button>
+                    </div>
+                    <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Intel Computers</h3>
+                        <button class="btn-flat btn-hover" onclick="window.location.href='/products';"><span>shop collection</span></button>
+                    </div>
+                    <img src="../public/media/images/new/Intel_prebuilt.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end promotion section -->
+
+    <!-- product list -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest products</h2>
+            </div>
+            <div class="row" id="latest-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
+                            <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now" onclick="window.location.href='/products';">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'>Add</i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                AMD Prebuilt 1
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>$600</del></span>
+                                <span class="curr-price">$500</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="/products" class="btn-flat btn-hover">view all</a>
+            </div>
+        </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- product list -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>best selling</h2>
+            </div>
+            <div class="row" id="best-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
+                            <img src="../public/media/images/new/AMD_prebuilt.jpg" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now" onclick="window.location.href='/products';">shop now</button>
+                            </div>
+                            <div class="product-card-name">
+                                AMD Prebuilt PC
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>$750</del></span>
+                                <span class="curr-price">$500</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="/products" class="btn-flat btn-hover">view all</a>
+            </div>
+        </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- blogs -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>latest reviews</h2>
+            </div>
+            <div class="blog">
+                <div class="blog-img">
+                    <img src="../public/media/images/new/gaming_guy.jpg" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        5 Stars
+                    </div>
+                    <div class="blog-preview">
+                        "Best computer buying experience i've used to date!" - John Doe
+                    </div>
+                    <div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <button class="btn-flat btn-hover" onclick="window.location.href='/reviews';">read more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">Products</h3>
+                    <ul class="menu">
+                        <li><a href="/product-detail">AMD</a></li>
+                        <li><a href="/product-detail">Intel</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">support</h3>
+                    <ul class="menu">
+                        <li><a href="/contact_us">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3 class="contact-header">
+                            Computers R Us
+                        </h3>
+                        <h3>
+                            This is a test of cloudflare pages
+                        </h3>
+                        <ul class="contact-socials">
+                            <li><a href="https://facebook.com">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                </a></li>
+                            <li><a href="https://instagram.com">
+                                    <i class='bx bxl-instagram-alt'></i>
+                                </a></li>
+                            <li><a href="https://youtube.com">
+                                    <i class='bx bxl-youtube'></i>
+                                </a></li>
+                            <li><a href="https://twitter.com">
+                                    <i class='bx bxl-twitter'></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- app js -->
+    <script src="../public/js/app.js"></script>
+    <script src="../public/js/slide.js"></script>
+    <!-- js components -->
+    <script src="../public/js/product-detail.js"></script>
+    <script src="../public/js/products.js"></script>
+    <script src="../public/js/cart.js"></script>
+</body>
+
+</html>
